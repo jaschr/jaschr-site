@@ -4,28 +4,47 @@
   "private": true,
   "description": "jaschr.com",
   "author": "Jacob Schroeder",
-  "keywords": [
-    "gatsby"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaschr/jaschr.com.git"
+  },
   "scripts": {
     "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^2.0.2",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@types/react-helmet": "^6.1.5",
+    "autoprefixer": "^10.4.2",
+    "framer-motion": "^6.2.3",
     "gatsby": "^4.6.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-emotion": "^7.6.0",
+    "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-manifest": "^4.6.0",
     "gatsby-plugin-mdx": "^3.6.0",
     "gatsby-plugin-postcss": "^5.6.0",
     "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-sharp": "^4.6.0",
     "gatsby-source-filesystem": "^4.6.0",
+    "gatsby-transformer-sharp": "^4.6.0",
     "postcss": "^8.4.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   }
 }
