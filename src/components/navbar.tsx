@@ -1,5 +1,12 @@
 import * as React from 'react'
-import { Box, Container, Flex, Heading, Stack } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Flex,
+  Heading,
+  Stack,
+  useColorModeValue,
+} from '@chakra-ui/react'
 import Logo from '@comps/logo'
 import ThemeToggleButton from '@comps/theme-toggle-button'
 
@@ -9,7 +16,7 @@ const Navbar = () => {
       position='fixed'
       as='nav'
       w='100%'
-      css={{ backdropFilter: 'blur(10px)' }}
+      bg={useColorModeValue('hsl(34.3, 41.2%, 90%)', 'hsl(240, 4.5%, 13.1%)')}
       zIndex={1}
     >
       <Container

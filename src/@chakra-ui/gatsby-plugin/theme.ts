@@ -4,7 +4,7 @@ import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools'
 const styles = {
   global: (props: StyleFunctionProps) => ({
     body: {
-      bg: mode('#f0e7db', '#202023')(props),
+      bg: mode('hsl(34.3, 41.2%, 90%)', 'hsl(240, 4.5%, 13.1%)')(props),
     },
   }),
 }
@@ -26,13 +26,13 @@ const components = {
 }
 
 const fonts = {
-  heading: 'Nunito Heading',
-  body: 'Nunito Body',
+  heading: 'Playfair Display Bold',
+  body: 'Nunito',
 }
 
 const config: ThemeConfig = {
   initialColorMode: 'dark',
-  useSystemColorMode: false,
+  useSystemColorMode: true,
 }
 
 const theme = extendTheme({
