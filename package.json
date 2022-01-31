@@ -6,7 +6,7 @@
   "author": "Jacob Schroeder",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaschr/jaschr.com.git"
+    "url": "git+https://github.com/jaschr/jaschr-site.git"
   },
   "scripts": {
     "develop": "gatsby develop",
