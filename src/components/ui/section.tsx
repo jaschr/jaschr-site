@@ -25,7 +25,7 @@ const SectionDiv = motion(
 const Section: React.FC<SectionProps> = ({ children, delay = 0 }) => {
   return (
     <SectionDiv
-      initial={{ y: 10, opacity: 0 }}
+      initial={{ y: 12, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay }}
       mb={12}

@@ -12,12 +12,16 @@ const styles = {
 const components = {
   Heading: {
     variants: {
+      'page-title': {
+        fontSize: 44,
+      },
       'section-title': {
+        fontFamily: 'Lora Semibold',
         textDecoration: 'underline',
         fontSize: 20,
-        textUnderlineOffset: 6,
-        textDecorationColor: '#525252',
-        textDecorationThickness: 4,
+        textUnderlineOffset: 3,
+        textDecorationColor: 'hsl(0, 0%, 26%)',
+        textDecorationThickness: 3,
         marginTop: 3,
         marginBottom: 4,
       },

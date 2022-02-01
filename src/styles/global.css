@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-display: swap;
   src: url('../fonts/nunito/nunito-regular.woff2') format('woff2'),
     url('../fonts/nunito/nunito-regular.woff') format('woff');
@@ -30,7 +30,7 @@
   src: url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
     url('../fonts/lato/Lato-Bold.woff') format('woff');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
 
@@ -52,6 +52,36 @@
       format('woff2'),
     url('../fonts/playfair_display/PlayfairDisplay-Bold.woff') format('woff');
   font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+/* Lora Bold */
+@font-face {
+  font-family: 'Lora Bold';
+  src: url('../fonts/lora/Lora-Bold.woff2') format('woff2'),
+    url('../fonts/lora/Lora-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+/* Lora Regular */
+@font-face {
+  font-family: 'Lora Regular';
+  src: url('../fonts/lora/Lora-Regular.woff2') format('woff2'),
+    url('../fonts/lora/Lora-Regular.ttf') format('ttf');
+  font-style: normal;
   font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Lora Regular */
+@font-face {
+  font-family: 'Lora Semibold';
+  src: url('../fonts/lora/Lora-SemiBold.woff2') format('woff2'),
+    url('../fonts/lora/Lora-SemiBold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
 }

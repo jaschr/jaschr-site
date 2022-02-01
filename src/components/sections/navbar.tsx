@@ -7,8 +7,8 @@ import {
   Stack,
   useColorModeValue,
 } from '@chakra-ui/react'
-import Logo from '@comps/logo'
-import ThemeToggleButton from '@comps/theme-toggle-button'
+import Logo from '@comps/ui/logo'
+import ThemeToggleButton from '@comps/ui/theme-toggle-button'
 
 const Navbar = () => {
   return (

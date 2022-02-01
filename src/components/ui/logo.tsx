@@ -12,15 +12,15 @@ const Logo = () => {
             '../images/logo.png'
           )}
           boxSize='30px'
+          mt={2}
           alt='logo'
         />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-          hover
           fontWeight='bold'
           ml={3}
           mt={2}
-          lineHeight='30px'
+          lineHeight='20px'
           alignItems='center'
         >
           Jacob Schroeder

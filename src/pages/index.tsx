@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Box, Container, Heading, Image, Text } from '@chakra-ui/react'
-import MadeUsingBox from '@comps/made-using-box'
-import Section from '@comps/section'
-import Paragraph from '@comps/paragraph'
+import MadeUsingBox from '@comps/ui/made-using-box'
+import Section from '@comps/ui/section'
+import Paragraph from '@comps/ui/paragraph'
 
 const IndexPage = () => {
   return (
@@ -30,7 +30,18 @@ const IndexPage = () => {
           </Box>
         </Box>
         <MadeUsingBox />
-        <Section delay={0.8}>
+        <Section delay={0.4}>
+          <Heading as='h3' variant='section-title'>
+            About Me
+          </Heading>
+          <Paragraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
+            tellus orci ac auctor augue mauris augue. Tortor dignissim convallis
+            aenean et tortor at.
+          </Paragraph>
+        </Section>
+        <Section delay={1.2}>
           <Heading as='h3' variant='section-title'>
             Projects
           </Heading>
@@ -41,18 +52,7 @@ const IndexPage = () => {
             velit aliquet sagittis id.
           </Paragraph>
         </Section>
-        <Section delay={1.6}>
-          <Heading as='h3' variant='section-title'>
-            My Story
-          </Heading>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-            tellus orci ac auctor augue mauris augue. Tortor dignissim convallis
-            aenean et tortor at.
-          </Paragraph>
-        </Section>
-        <Section delay={2.4}>
+        <Section delay={2.0}>
           <Heading as='h3' variant='section-title'>
             Contact
           </Heading>

@@ -1,7 +1,7 @@
 import { Box, Container } from '@chakra-ui/react'
-import SEO from '@comps/seo'
+import SEO from '@comps/util/seo'
 import React from 'react'
-import Navbar from '@comps/navbar'
+import Navbar from '@comps/sections/navbar'
 
 type Props = {
   children: React.ReactNode
